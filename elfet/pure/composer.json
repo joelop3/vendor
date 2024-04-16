@@ -1,0 +1,29 @@
+{
+    "name": "elfet/pure",
+    "description": "Pure PHP key-value storage",
+    "authors": [
+        {
+            "name": "Anton Medvedev",
+            "email": "anton@elfet.ru"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Pure\\": "src/"
+        }
+    },
+    "require": {
+        "react/react": "~0.4",
+        "symfony/console": "~2.6 || ~3.0 || ~4.0",
+        "symfony/expression-language": "~2.6 || ~3.0 || ~4.0",
+        "symfony/debug": "~2.6 || ~3.0 || ~4.0"
+    },
+    "require-dev": {
+        "symfony/finder": "~2.6 || ~3.0 || ~4.0",
+        "phpunit/phpunit": "~4.4",
+        "symfony/process": "~2.6 || ~3.0 || ~4.0"
+    },
+    "bin": ["pure"],
+    "license": "MIT",
+    "minimum-stability": "dev"
+}
